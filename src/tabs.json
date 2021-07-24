@@ -1,0 +1,52 @@
+[
+  {
+    "id":1,
+    "title": "Job focus",
+    "disabled": true
+  },
+  {
+    "id":2,
+    "title": "Soft Skills",
+    "disabled": false
+  },
+  {
+    "id":3,
+    "title": "Technical skills",
+    "disabled": false
+  },
+  {
+    "id":4,
+    "title": "Functional Expertise",
+    "disabled": false
+  },
+  {
+    "id":5,
+    "title": "Domain Expertise",
+    "disabled": false
+  },
+  {
+    "id":6,
+    "title": "Patent Expertise",
+    "disabled": false
+  },
+  {
+    "id":7,
+    "title": "Hard Expertise",
+    "disabled": false
+  },
+  {
+    "id":8,
+    "title": "Domain Expertise",
+    "disabled": false
+  },
+  {
+    "id":9,
+    "title": "Domain Expertise",
+    "disabled": false
+  },
+  {
+    "id":10,
+    "title": "Domain Expertise",
+    "disabled": false
+  }
+]

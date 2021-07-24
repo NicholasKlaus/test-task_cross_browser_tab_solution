@@ -1,0 +1,110 @@
+.App {
+  text-align: center;
+  height: 100vh;
+}
+
+.container {
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tab-wrap {
+  padding-top: 66px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.tab {
+  padding: 5px;
+  display: flex;
+  background-color: #F2F2F2;
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  background-image: linear-gradient(to right, #F2F2F2, #F2F2F2),
+    linear-gradient(to right, #F2F2F2, #F2F2F2),
+    linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0)),
+    linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(255, 255, 255, 0));
+  background-position: left center, right center, left center, right center;
+  background-repeat: no-repeat;
+  background-size: 20px 100%, 20px 100%, 10px 100%, 10px 100%;
+  background-attachment: local, local, scroll, scroll;
+}
+
+.tab::-webkit-scrollbar-track {
+	background-color: #e2e2e2;
+}
+
+.tab::-webkit-scrollbar {
+  height: 6px;
+	background-color: #e2e2e2;
+}
+
+.tab::-webkit-scrollbar-thumb {
+	background-color: #9c9c9c;
+}
+
+.btn-basic {
+  padding: 8px 24px;
+  font-size: 14px;
+  color: #666666;
+  cursor: pointer;
+  white-space: nowrap;
+  text-align: center;
+  border: none;
+  border-radius: 2px;
+}
+
+.btn-basic:hover {
+  background-color: #E0E0E0;
+}
+
+.btn-basic:active {
+  background-color: #CFE5FF;
+  color: #527AAA;
+}
+
+.btn-active {
+  background-color: #CFE5FF;
+  color: #527AAA;
+}
+
+.btn-basic:disabled {
+  color: #AFAFAF;
+}
+
+.btn-active:focus-visible {
+  outline: none;
+}
+
+.btn-disabled {
+  pointer-events: none;
+  color: #AFAFAF;
+}
+
+@media (max-width: 1024px) {
+  .tab-wrap {
+    padding-top: 43px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .tab-wrap {
+    padding-top: 33px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+}
+
+@media (max-width: 576px) {
+  .tab-wrap {
+    padding-top: 33px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+}
